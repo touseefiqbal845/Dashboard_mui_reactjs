@@ -25,7 +25,7 @@ export function NavUpgrade({ sx, ...other }: StackProps) {
           ),
         })}
       >
-        More featuresd?
+        More features?
       </Typography>
       <Typography variant="body2" sx={{ color: 'text.secondary', mt: 0.5 }}>
         {`From only `}
