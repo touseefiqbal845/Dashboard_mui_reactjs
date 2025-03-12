@@ -1,10 +1,10 @@
 {
   "primary": {
-    "lighter": "#D0ECFE",
-    "light": "#73BAFB",
-    "main": "#1877F2",
-    "dark": "#0C44AE",
-    "darker": "#042174",
+    "lighter": "#C8FAD6",
+    "light": "#5BE49B",
+    "main": "#00A76F",
+    "dark": "#007867",
+    "darker": "#004B50",
     "contrastText": "#FFFFFF"
   },
   "secondary": {
@@ -29,7 +29,7 @@
     "main": "#22C55E",
     "dark": "#118D57",
     "darker": "#065E49",
-    "contrastText": "#ffffff"
+    "contrastText": "#FFFFFF"
   },
   "warning": {
     "lighter": "#FFF5CC",
@@ -47,6 +47,12 @@
     "darker": "#7A0916",
     "contrastText": "#FFFFFF"
   },
+  "common": {
+    "black": "#000000",
+    "white": "#FFFFFF",
+    "background": "#FFFFFF",
+    "onBackground": "#000000"
+  },
   "grey": {
     "50": "#FCFDFD",
     "100": "#F9FAFB",
@@ -59,8 +65,27 @@
     "800": "#1C252E",
     "900": "#141A21"
   },
-  "common": {
-    "black": "#000000",
-    "white": "#FFFFFF"
-  }
+  "text": {
+    "primary": "#1C252E",
+    "secondary": "#637381",
+    "disabled": "#919EAB"
+  },
+  "background": {
+    "paper": "#FFFFFF",
+    "default": "#FFFFFF",
+    "neutral": "#F4F6F8"
+  },
+  "divider": "rgba(145, 158, 171, 0.2)",
+  "action": {
+    "hover": "rgba(145, 158, 171, 0.08)",
+    "selected": "rgba(145, 158, 171, 0.16)",
+    "focus": "rgba(145, 158, 171, 0.24)",
+    "disabled": "rgba(145, 158, 171, 0.8)",
+    "disabledBackground": "rgba(145, 158, 171, 0.24)"
+  },
+  "shadows": [
+    "none",
+    "0px 2px 1px -1px rgba(145, 158, 171, 0.2), 0px 1px 1px 0px rgba(145, 158, 171, 0.14), 0px 1px 3px 0px rgba(145, 158, 171, 0.12)",
+    "0px 3px 1px -2px rgba(145, 158, 171, 0.2), 0px 2px 2px 0px rgba(145, 158, 171, 0.14)"
+  ]
 }
