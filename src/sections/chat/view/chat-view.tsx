@@ -9,8 +9,14 @@ import ChatWindow from './ChatWindow';
 const theme = createTheme({
   palette: {
     mode: 'light',
+    //@ts-ignore
     primary: {
-      main: '#4CAF50',
+      lighter: "#D0ECFE",
+      light: "#73BAFB",
+      main: "#4caf50",
+      dark: "#0C44AE",
+      darker: "#042174",
+      contrastText: "#FFFFFF"
     },
     background: {
       default: '#f5f5f5',
@@ -45,14 +51,14 @@ interface Message {
   isOwn?: boolean;
 }
 
- interface ContactInfo {
+interface ContactInfo {
   title?: string;
   address?: string;
   phone?: string;
   email?: string;
 }
 
- interface Contact {
+interface Contact {
   id: string;
   name: string;
   avatar: string;
@@ -291,10 +297,10 @@ function App() {
       prev.map(contact =>
         contact.id === selectedContact.id
           ? {
-              ...contact,
-              lastMessage: text,
-              time: 'just now',
-            }
+            ...contact,
+            lastMessage: text,
+            time: 'just now',
+          }
           : contact
       )
     );
@@ -317,10 +323,10 @@ function App() {
         prev.map(contact =>
           contact.id === selectedContact.id
             ? {
-                ...contact,
-                lastMessage: reply.text,
-                time: 'just now',
-              }
+              ...contact,
+              lastMessage: reply.text,
+              time: 'just now',
+            }
             : contact
         )
       );
