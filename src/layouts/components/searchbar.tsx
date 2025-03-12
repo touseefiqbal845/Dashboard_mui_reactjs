@@ -77,7 +77,6 @@ export function Searchbar({ sx, ...other }: BoxProps) {
             <Button variant="contained" onClick={handleClose}>
               Search
             </Button>
-            <h6 style={{ color: 'red', fontSize: '20px' }}>Hello world!</h6>
 
 
           </Box>

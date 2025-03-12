@@ -1,2 +1,2 @@
-export { default } from './chat-view';
+export * from './chat-view';
 

@@ -1,9 +1,6 @@
 /** **************************************
 * Fonts: app
 *************************************** */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @import '@fontsource-variable/dm-sans';
 
@@ -21,6 +18,9 @@
 
 /* chart */
 @import './components/chart/styles.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 /** **************************************
