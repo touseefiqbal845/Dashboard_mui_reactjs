@@ -47,7 +47,7 @@ const ChatSidebar: React.FC<ChatSidebarProps> = ({
         bgcolor: theme.palette.background.paper,
         borderRight: `1px solid ${theme.palette.divider}`,
         // height: '100vh',
-        display: { xs: selectedContact ? 'none' : 'block', sm: 'block' },
+        // display: { xs: selectedContact ? 'none' : 'flex', sm: 'block' },
         display: 'flex',
         flexDirection: 'column',
       }}
