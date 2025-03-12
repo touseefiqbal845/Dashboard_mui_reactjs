@@ -55,7 +55,7 @@ const ChatSidebar: React.FC<ChatSidebarProps> = ({
       <Box sx={{ p: 2, borderBottom: `1px solid ${theme.palette.divider}` }}>
         <Box sx={{ display: 'flex', alignItems: 'center', mb: 2, gap: 1 }}>
           <IconButton sx={{ display: { sm: 'none' }, color: theme.palette.primary.main }}>
-            <FaArrowLeft size={20} />
+            <FaArrowLeft size={20} /> 
           </IconButton>
           <Avatar
             src={'https://avatars.githubusercontent.com/u/136140163?s=48&v=4'}

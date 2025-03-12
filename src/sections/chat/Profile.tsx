@@ -16,8 +16,14 @@ import {
 } from '@mui/material';
 import { MdExpandMore } from 'react-icons/md';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFileAlt, FaMusic } from 'react-icons/fa';
+import { Contact } from 'src/typescript-Interface/chat';
 
-const ProfileSidebar = ({ user }) => {
+
+
+interface ProfileProps {
+  user: Contact;
+}
+const ProfileSidebar : React.FC<ProfileProps> = ({ user }) => {
   console.log('user', user);
 
   return (
@@ -91,7 +97,7 @@ const ProfileSidebar = ({ user }) => {
           <AccordionDetails>
             <List>
               {user?.attachments?.length ? (
-                user.attachments.map((file, index) => (
+                user.attachments.map((file: any, index: number) => (
                   <ListItem key={index}>
                     <ListItemAvatar>
                       {file?.type === 'audio' ? (
@@ -100,6 +106,7 @@ const ProfileSidebar = ({ user }) => {
                         <FaFileAlt style={{}} />
                       )}
                     </ListItemAvatar>
+                    
                     <ListItemText primary={file?.name} secondary={file?.date} />
                   </ListItem>
                 ))
