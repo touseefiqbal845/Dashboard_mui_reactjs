@@ -12,6 +12,7 @@ import { DashboardLayout } from 'src/layouts/dashboard';
 
 export const HomePage = lazy(() => import('src/pages/home'));
 export const BlogPage = lazy(() => import('src/pages/blog'));
+export const ChatPage = lazy(() => import('src/pages/chat'));
 export const UserPage = lazy(() => import('src/pages/user'));
 export const SignInPage = lazy(() => import('src/pages/sign-in'));
 export const ProductsPage = lazy(() => import('src/pages/products'));
@@ -47,6 +48,8 @@ export function Router() {
         { path: 'user', element: <UserPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
+        { path: 'chat', element: <ChatPage /> },
+
       ],
     },
     {
