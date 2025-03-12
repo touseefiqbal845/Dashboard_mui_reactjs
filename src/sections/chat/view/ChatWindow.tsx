@@ -186,7 +186,8 @@ const ChatWindow: React.FC<ChatWindowProps> = ({
             }}
           >
             {messages.map((message) => (
-              <Fade key={message.id} in={true} timeout={500}>
+             <Fade key={message.id} in timeout={500}>
+              
                 <Box
                   sx={{
                     display: 'flex',
