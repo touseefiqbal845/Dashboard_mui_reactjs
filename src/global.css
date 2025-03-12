@@ -1,7 +1,6 @@
 /** **************************************
 * Fonts: app
 *************************************** */
-
 @import '@fontsource-variable/dm-sans';
 
 @import '@fontsource/barlow/400.css';
@@ -18,10 +17,6 @@
 
 /* chart */
 @import './components/chart/styles.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 
 /** **************************************
 * Baseline
