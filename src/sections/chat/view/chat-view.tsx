@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Box, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-import ChatSidebar from './ChatSidebar';
 import ChatWindow from './ChatWindow';
+import ChatSidebar from './ChatSidebar';
 
 
 
