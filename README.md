@@ -1,5 +1,5 @@
 ## Minimal UI ([Free version](https://crm-pied-eta.vercel.app))
-https://github.com/minimal-ui-kit/material-kit-react/blob/main/public/assets/images/minimal-free-preview.jpg
+
 
 
 
