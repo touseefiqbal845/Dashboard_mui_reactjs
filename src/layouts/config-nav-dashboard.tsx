@@ -33,11 +33,11 @@ export const navData = [
   //   path: '/blog',
   //   icon: icon('ic-blog'),
   // },
-  //  {
-  //   title: 'Chat',
-  //   path: '/chat',
-  //   icon: icon('ic-blog'),
-  // },
+   {
+    title: 'Chat',
+    path: '/chat',
+    icon: icon('ic-chat'),
+  },
   // {
   //   title: 'Sign in',
   //   path: '/sign-in',
