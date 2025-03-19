@@ -38,14 +38,15 @@ export const navData = [
     path: '/chat',
     icon: icon('ic-chat'),
   },
-  // {
-  //   title: 'Sign in',
-  //   path: '/sign-in',
-  //   icon: icon('ic-lock'),
-  // },
-  // {
-  //   title: 'Not found',
-  //   path: '/404',
-  //   icon: icon('ic-disabled'),
-  // },
+
+  {
+    title: 'Sign in',
+    path: '/sign-in',
+    icon: icon('ic-lock'),
+  },
+  {
+    title: 'Not found',
+    path: '/404',
+    icon: icon('ic-disabled'),
+  },
 ];

@@ -42,7 +42,7 @@ export function Router() {
             <Outlet />
           </Suspense>
         </DashboardLayout>
-      ),
+      ),  
       children: [
         { element: <HomePage />, index: true },
         { path: 'user', element: <UserPage /> },
