@@ -29,6 +29,34 @@ export const _times = (index: number) =>
     '08/09/2024',
   ][index];
 
+  export const _order = (index: number) =>
+    [
+      '#43331',
+      '#43332',
+      '#43333',
+      '#43334',
+      '#43635',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+      '#43332',
+
+    ][index];
 export const _fullName = (index: number) =>
   [
     'Billy Stoltenberg',
@@ -56,6 +84,12 @@ export const _fullName = (index: number) =>
     'Brandon Von',
     'Willis Ankunding',
   ][index];
+
+
+
+export const _date = (index: number) =>
+  ['2025-03-20', '2025-03-19', '2025-03-18', '2025-03-17', '2025-03-16'][index];
+
 
 export const _price = (index: number) =>
   [

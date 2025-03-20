@@ -2,6 +2,8 @@ import {
   _id,
   _price,
   _times,
+  _date,
+  _order,
   _company,
   _boolean,
   _fullName,
@@ -20,6 +22,17 @@ export const _myAccount = {
 };
 
 // ----------------------------------------------------------------------
+
+export const _orders = [...Array(24)].map((_, index) => ({
+  id: _id(index),
+  order: _order(index),
+  name: _fullName(index),
+  date: _times(index),
+  items: ['1', '4', '2', '1', '8'][index] || '5',
+  avatarUrl: `/assets/images/avatar/avatar-${index + 1}.webp`,
+  status: index % 4 ? 'Delievered' : 'Cancelled',
+  price: _price(index),
+}));
 
 export const _users = [...Array(24)].map((_, index) => ({
   id: _id(index),
