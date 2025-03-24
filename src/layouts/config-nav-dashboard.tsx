@@ -23,12 +23,12 @@ export const navData = [
     path: '/products',
     icon: icon('ic-cart'),   
     info: (
-      <Label color="error" variant="inverted">
+      <Label color="error" variant="inverted"> 
         +3
       </Label>
     ),
   },
-  {
+  { 
     title: 'Blog',
     path: '/blog',
     icon: icon('ic-blog'),
@@ -47,11 +47,16 @@ export const navData = [
   {
     title: 'Order',
     path: '/order',
-    icon: icon('ic-lock'),
+    icon: icon('ic-lock'),  
   },
   {
     title: 'Job',
     path: '/job',
+    icon: icon('ic-lock'),
+  },
+  {
+    title: 'Mail',
+    path: '/mail',
     icon: icon('ic-lock'),
   },
   {
